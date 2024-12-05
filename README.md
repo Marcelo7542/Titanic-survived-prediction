@@ -46,13 +46,13 @@ Para avaliar o desempenho de cada modelo, utilizei a validação cruzada, que di
 permitindo uma avaliação mais robusta.
 
 4. Busca de Hiperparâmetros
-5. 
+   
 Para melhorar a performance do modelo final, realizei uma busca de hiperparâmetros utilizando o RandomizedSearchCV.
 Essa técnica permitiu encontrar os melhores parâmetros para o modelo GradientBoostingClassifier, variando os valores de hiperparâmetros como o número de estimadores,
 a taxa de aprendizado, a profundidade máxima das árvores, entre outros.
 
 7. Treinamento e Previsão
-8. 
+   
 Após encontrar os melhores parâmetros, o modelo foi treinado com o conjunto de dados de treinamento.
 Com o modelo ajustado, fiz previsões sobre o conjunto de dados de teste, determinando se cada passageiro sobreviveu ou não.
 
