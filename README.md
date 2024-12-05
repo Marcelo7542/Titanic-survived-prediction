@@ -63,9 +63,13 @@ O resultado final foi um DataFrame contendo as previsões para cada passageiro d
 
 Tecnologias Utilizadas
 Pandas: Para manipulação de dados e pré-processamento.
+
 Scikit-learn: Para modelagem preditiva, validação cruzada e busca de hiperparâmetros.
+
 NumPy: Para operações numéricas e manipulação de arrays.
+
 SciPy: Para distribuição estatística e geração de números aleatórios.
+
 Conclusão
 Neste projeto, apliquei técnicas de aprendizado de máquina para prever a sobrevivência dos passageiros do Titanic. 
 A partir de um conjunto de dados históricos, o modelo foi treinado e otimizado para realizar previsões sobre um novo conjunto de dados. 
